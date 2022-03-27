@@ -1,0 +1,61 @@
+:root {
+  --color-background: #f7f7f7;
+  --color-background-nav: #212121;
+  --color-background-main: #191919;
+  --color-light-gray: #838383;
+  --color-text-title: #ffe400;
+  --color-text-light: #ffffff;
+  --color-text-dark: #1f1f1f;
+
+  --default-font-size: 1.6rem;
+}
+
+/* RESETS */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Play', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+html {
+  font-size: 62.5%; /* 10px/16px = 62.5% - Esse valor define o que 1rem é! */
+}
+body {
+  font-size: var(--default-font-size);
+}
+html,
+body {
+  font-family: 'Play', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  text-shadow: 0 0 1px transparent;
+  background-color: var(--color-background);
+  color: var(--color-text-dark);
+}
+a {
+  text-decoration: none;
+  transition: 0.2s opacity;
+}
+a:hover {
+  opacity: 0.8;
+}
+.container {
+  width: 90%;
+}
+p {
+  line-height: calc(1ex / 0.32);
+}
+h1 {
+  text-shadow: #000 1px 1px 1px;
+}
+main {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 120px);
+  flex-direction: column;
+}
+@media (min-width: 700px) {
+}
