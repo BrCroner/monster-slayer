@@ -25,7 +25,7 @@
             <router-link to="/MonsterSlayer">Monster Slayer</router-link>
           </li>
           <li>
-            <a target="_blank" href="https://github.com/BrCroner/Portfolio"
+            <a target="_blank" href="https://github.com/BrCroner"
               >GitHub</a
             >
           </li>
@@ -37,7 +37,7 @@
             >
           </li>
           <li>
-            <a target="_blank" href="mailto:br.croner@gmail.com">Contato</a>
+            <a target="_blank" href="mailto:bruno.croner@outlook.com">Contato</a>
           </li>
         </ul>
       </div>
